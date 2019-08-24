@@ -1,0 +1,452 @@
+.site-nav {
+    background: #ffffff;
+}
+
+.site-nav ul li a {
+    color: #333333;
+}
+
+.site-nav ul.social>li>a>span {
+    color: #333333;
+}
+
+.site-nav ul li a:after {
+    background: #333333
+}
+
+.content3 {
+    width: 100%;
+    min-width: 1170px;
+    padding: 73px 0 100px;
+    background: #f7f3ee;
+}
+
+@media screen and (max-width: 768px) {
+
+    .content3 {
+        min-width: 100%;
+        padding: 0;
+    }
+}
+
+.header {
+    width: 100%;
+    height: 780px;
+    background: url("../img/index-3/Hero-banner-OUR-VINEYARDS.jpg") no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.header-box {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.header-title {
+    width: 50%;
+    height: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header-title>h1 {
+    width: 100%;
+    height: 44px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 44px;
+    /* margin: 0 0 35px; */
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.header-title>h3 {
+    color: #fff;
+    font-size: 55px;
+    line-height: 1.2;
+    font-weight: 200;
+    /* margin: 0 0 30px; */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        height: 570px;
+    }
+
+    .header-title {
+        width: 100%;
+    }
+
+    .header-title>h1 {
+        width: 100%;
+        height: 44px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 44px;
+        /* margin: 0 0 35px; */
+        font-weight: 400;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+    .header-title>h3 {
+        color: #fff;
+        font-size: 21px;
+        line-height: 1.2;
+        font-weight: 200;
+        /* margin: 0 0 30px; */
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        display: inline-block;
+    }
+}
+
+.content3>nav {
+    width: 100%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    height: 95px;
+    background: #0f1114;
+    z-index: 200;
+}
+
+.content3>nav>div {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.content3>nav>div>ul {
+    list-style: none;
+    text-align: center;
+    line-height: 95px;
+}
+
+.content3>nav>div>ul>li {
+    display: inline-block;
+}
+
+.content3>nav>div>ul>li>a {
+    display: block;
+    padding: 0 30px;
+    color: #fff;
+    font-family: EngraversGothicBTW01-Re;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: .5;
+    transition: opacity .3s;
+}
+
+.a-active {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .content3>nav {
+        display: block;
+        padding: 15px 0;
+    }
+
+    .content3>nav>div {
+        width: 100%;
+    }
+
+    .content3>nav>div>ul {
+        list-style: none;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .content3>nav>div>ul>li>a {
+        font-size: 16px;
+    }
+}
+
+.descrip {
+    width: 100%;
+    background: #ffffff;
+    padding: 60px 0 80px;
+    margin-top: 95px;
+}
+
+.descrip-box {
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 15px 15px;
+    text-align: center;
+}
+
+.descrip-box>h3 {
+    font-size: 1.625em;
+    line-height: 1.7;
+    color: #c0272d;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 0 0 35px;
+    font-weight: 400;
+}
+
+.descrip-box>p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #444;
+    font-weight: 400;
+    font-size: 1pc;
+}
+
+@media screen and (max-width: 768px) {
+    .descrip-box {
+        width: 100%;
+        text-align: left;
+    }
+
+    .descrip-box>h3 {
+        font-size: 18px;
+    }
+
+    .descrip-box>p {
+        font-size: 12px;
+    }
+}
+
+.descrip1 {
+    width: 100%;
+    min-width: 1170px;
+    height: auto;
+    padding: 130px 0;
+}
+
+.descrip1-box {
+    width: 1140px;
+    height: auto;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.descrip1-box>div {
+    float: left;
+}
+
+.descrip1-box>.left {
+    width: 33%;
+}
+
+.descrip1-box>.left>h3 {
+    font-size: 26px;
+    color: #c0272d;
+    line-height: 1.7;
+    text-transform: uppercase;
+    margin: 0 0 35px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.descrip1-box>.left>h3:after {
+    content: "";
+    display: block;
+    width: 136px;
+    height: 38px;
+    border-bottom: 2px solid currentColor;
+}
+
+.descrip1-box>.right {
+    width: 66%
+}
+
+.descrip1-box>.right>p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #444;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .descrip1 {
+        min-width: 100%;
+        padding: 40px 0;
+    }
+
+    .descrip1-box {
+        width: 100%;
+    }
+
+    .descrip1-box>div {
+        float: lenone;
+    }
+
+    .descrip1-box>.left {
+        width: 100%;
+    }
+
+    .descrip1-box>.left>h3 {
+        font-size: 18px;
+        color: #c0272d;
+        line-height: 1.7;
+        text-transform: uppercase;
+        margin: 0 0 35px;
+        font-weight: 400;
+        letter-spacing: 3px;
+    }
+
+    .descrip1-box>.left>h3:after {
+        content: "";
+        display: block;
+        width: 136px;
+        height: 18px;
+        border-bottom: 2px solid currentColor;
+    }
+
+    .descrip1-box>.right {
+        width: 100%;
+    }
+
+    .descrip1-box>.right>p {
+        margin: 0 0 15px;
+        line-height: 1.6;
+        letter-spacing: 1px;
+        color: #444;
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
+
+.grape-img {
+    width: 1140px;
+    margin: 130px auto;
+    column-count: 2;
+    column-gap: 5px;
+    position: relative;
+}
+
+.grape-img>img:nth-child(odd) {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .grape-img {
+        width: 100%;
+        margin: 10px 0;
+
+    }
+
+    .grape-img>img {
+        width: 100%;
+    }
+
+    .grape-img>img:nth-child(odd) {
+        margin-bottom: 5px;
+    }
+}
+
+.marlborough {
+    margin-bottom: 75pt;
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.marlborough-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -15px 50px;
+}
+
+.marlborough-container>div {
+    flex: none;
+    padding: 0 15px 15px;
+}
+
+.marlborough-container>.left {
+    width: 33.33333%;
+}
+
+.marlborough-container>.left>h4 {
+    color: #c0272d;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.marlborough-container>.left>p {
+    color: #444;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+    margin: 0 0 15px;
+    line-height: 1.6;
+}
+
+.marlborough-container>.right {
+    width: 66.66667%;
+}
+
+.marlborough-container>.right>p {
+    margin: 0 0 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #444;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .marlborough {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .marlborough-container>.left {
+        width: 100%;
+    }
+
+    .marlborough-container>.left>h4 {
+        font-size: 18px;
+    }
+
+    .marlborough-container>.left>p {
+        font-size: 18px;
+    }
+
+    .marlborough-container>.right {
+        width: 100%;
+    }
+
+    .marlborough-container>.right {
+        font-size: 12px;
+    }
+}
+
+.sky {
+    width: 100%;
+    height: 550px;
+    background: url("../img/index-3/Our-Vineyards-FIRST-IMAGE-STRIP.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    .sky {
+        height: 250px;
+
+    }
+}
+
+.green {
+    background: url("../img/index-3/Our-Vineyards-SECOND-IMAGE-STRIP.jpg") no-repeat;
+}

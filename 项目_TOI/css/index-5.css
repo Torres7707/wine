@@ -1,0 +1,93 @@
+.site-nav {
+  background: #ffffff;
+}
+.site-nav ul li a {
+  color: #333333;
+}
+@media screen and (min-width: 768px) {
+  ul.nav > li > a:hover {
+    background-color: #fff !important;
+  }
+}
+ul.nav > li > a:hover {
+  background-color: transparent !important;
+}
+.site-nav ul.social > li > a > span {
+  color: #333333;
+}
+.site-nav ul li a:after {
+  background: #333333;
+}
+body {
+  background-color: #F7F3EE !important;
+}
+html {
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 1pc;
+  }
+}
+.container {
+  padding: 100px 0;
+}
+.heading {
+  margin-bottom: 60px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 1.875em;
+}
+h2 {
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  color: #c0272d !important;
+  font-size: 1.125em !important;
+  line-height: 1.5 !important;
+  margin-bottom: 15px !important;
+  margin: 50px 0 !important;
+}
+dd > a {
+  color: #c0272d;
+  text-decoration: none;
+  transition: color .3s;
+}
+section {
+  background: url("../img/index-5/Footer-banner-FIND-OUR-WINES2.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+  height: auto;
+}
+section h1 {
+  font-size: 2.1875em;
+  letter-spacing: 4px;
+  color: #ffffff;
+  margin: 0 0 35px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+section p {
+  letter-spacing: 2px;
+  font-size: 1.875em;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  section {
+    height: 550px;
+  }
+}
+hr {
+  margin: 60px auto !important;
+  box-sizing: content-box !important;
+  height: 0 !important;
+  overflow: visible !important;
+  border: 1px solid #333333 !important;
+  background: #333333 !important;
+}
